@@ -1,0 +1,11 @@
+.body
+{
+-fx-background-image: url(../resource/bg.jpg);
+-fx-background-size: auto 100%;
+}
+
+.textF
+{
+-fx-background-color: white;
+-fx-opacity: 0.8;
+}

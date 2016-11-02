@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="356.0" prefWidth="488.0" styleClass="body" stylesheets="@../style/styleMain.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Button fx:id="sendBut" layoutX="30.0" layoutY="174.0" mnemonicParsing="false" onAction="#sendClick" prefHeight="25.0" prefWidth="94.0" text="Войти" />
+      <TextField fx:id="login" layoutX="56.0" layoutY="70.0" prefHeight="25.0" prefWidth="140.0" />
+      <TextField fx:id="pass" layoutX="56.0" layoutY="124.0" prefHeight="25.0" prefWidth="140.0" />
+      <Label layoutX="105.0" layoutY="52.0" lineSpacing="6.0" text="Логин:" textFill="#4f1a47" />
+      <Label layoutX="105.0" layoutY="106.0" text="Пароль:" textFill="#4f1a47" />
+      <Button fx:id="regBut" layoutX="130.0" layoutY="174.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="94.0" text="Регистрация" />
+   </children>
+</AnchorPane>
